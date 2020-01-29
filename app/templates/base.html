@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-	{% if title %}
+	{%- if title %}
 	<title>{{ title }} - Microblog</title>
-	{% else %}
+	{%- else %}
 	<title>Welcome to Microblog</title>
-	{% endif %}
+	{%- endif %}
 </head>
 <body>
 	<div>
 		Microblog: 
 		<a href="{{ url_for('index') }}">Home</a>
 		<a href="{{ url_for('login') }}">Login</a>
+		<hr>
 	</div>
-	{% block content %}{% endblock %}
+	{%- block content %}{%- endblock %}
 </body>
 </html>
