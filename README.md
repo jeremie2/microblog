@@ -1,5 +1,5 @@
 # microblog
-*Learning Flask, a Python web framework*
+*Learning Flask Python web framework following **The Flask Mega-Tutorial by Miguel Grinberg***
 
 I use this project to learn how Flask works step by step. **Don't use it in productions!**
 
