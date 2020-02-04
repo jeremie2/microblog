@@ -1,6 +1,7 @@
 # microblog
-*Learning Flask Python web framework following **The Flask Mega-Tutorial by Miguel Grinberg***
+Learning Flask Python web framework following **The Flask Mega-Tutorial** by *Miguel Grinberg*.
 
 I use this project to learn how Flask works step by step. **Don't use it in productions!**
+(See the [wiki](https://github.com/jeremie2/microblog/wiki) for more infos).
 
 Git will help me setting milestones while the project keeps growing. Once I learn something new I can go back to the previous situation and try to repeat all the steps by myself till I can do it without any help.
