@@ -14,6 +14,17 @@
 		<a href="{{ url_for('login') }}">Login</a>
 		<hr>
 	</div>
+<<<<<<< HEAD
+	{% with messages = get_flashed_messages() %}
+	{% if messages %}
+	<ul>
+		{% for message in messages %}
+		<li>{{ message }}</li>
+		{% endfor %}
+	</ul>
+	{% endif %}
+	{% endwith %}
+=======
 
 	{%- with messages = get_flashed_messages() %}
 	{%- if messages %}
@@ -24,6 +35,7 @@
 	</ul>
 	{%- endif %}
 	{%- endwith %}
+>>>>>>> 2a05bcc6eb525b2758a6ce802e26e75b00b989f5
 
 	{%- block content %}{%- endblock %}
 </body>

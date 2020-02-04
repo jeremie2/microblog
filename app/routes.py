@@ -10,7 +10,11 @@ def index():
     user = {'username': 'Miguel'}
     return render_template('home.html', title='Home', user=user)
 
+<<<<<<< HEAD
+@app.route('/log', methods=['GET', 'POST'])
+=======
 @app.route('/login', methods=['GET', 'POST'])
+>>>>>>> 2a05bcc6eb525b2758a6ce802e26e75b00b989f5
 def login():
     form = LoginForm()
     if form.validate_on_submit():

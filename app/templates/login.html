@@ -8,15 +8,25 @@
         {{ form.username.label }}<br>
         {{ form.username(size=32) }}<br>
         {% for error in form.username.errors %}
+<<<<<<< HEAD
+        <span style="color: red;">{{ error }}</span>
+=======
         <span style="color: red;">[{{ error }}]</span>
+>>>>>>> 2a05bcc6eb525b2758a6ce802e26e75b00b989f5
         {% endfor %}
     </p>
     <p>
         {{ form.password.label }}<br>
         {{ form.password(size=32) }}<br>
+<<<<<<< HEAD
+        {% for error in form.password.errors %}
+        <span style="color: red;">{{ error }}</span>
+        {% endfor %}
+=======
         {% for error in form.username.errors %}
         <span style="color: red;">[{{ error }}]</span>
         {% endfor %}       
+>>>>>>> 2a05bcc6eb525b2758a6ce802e26e75b00b989f5
     </p>
     <p>
         {{ form.remember_me() }}        

@@ -1,4 +1,10 @@
+<<<<<<< HEAD
+venv
+app.db
+__pycache__
+=======
 .flaskenv
 venv/
 __pycache__/
 **/__pycache__/
+>>>>>>> 2a05bcc6eb525b2758a6ce802e26e75b00b989f5
