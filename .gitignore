@@ -2,4 +2,8 @@ venv
 logs
 __pycache__
 microblog.log
+<<<<<<< HEAD
 app.db
+=======
+app.db
+>>>>>>> efdc06bf4e954041e09d104d6d3dbc1738b9aeb9
