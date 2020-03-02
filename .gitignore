@@ -1,3 +1,5 @@
 venv
-app.db
+logs
 __pycache__
+microblog.log
+app.db
